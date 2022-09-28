@@ -1,5 +1,5 @@
 {
-  "name": "leantime",
+  "name": "MezapMod",
   "version": "2.2.4",
   "description": "Open source project management system",
   "main": "gruntfile.js",
@@ -39,7 +39,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Leantime/leantime"
+    "url": "https://github.com/Webck-Tecnologia/Mezap-To-do"
   },
   "keywords": [
     "Project",
@@ -50,5 +50,5 @@
   ],
   "author": "Marcel Folaron",
   "license": "GPL-2.0",
-  "homepage": "https://github.com/Leantime/leantime/blob/master/README.md"
+  "homepage": "https://github.com/Webck-Tecnologia/Mezap-To-do"
 }

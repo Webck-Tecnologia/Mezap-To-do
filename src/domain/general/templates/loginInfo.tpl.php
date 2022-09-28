@@ -51,17 +51,7 @@
             </a>
         </li>
         <li>
-            <a href='https://docs.leantime.io' target="_blank">
-                <?=$this->__("menu.knowledge_base")?>
-            </a>
-        </li>
-        <li>
-            <a href='https://community.leantime.io' target="_blank">
-                <?=$this->__("menu.community")?>
-            </a>
-        </li>
-        <li>
-            <a href='https://leantime.io/contact-us' target="_blank">
+            <a href='https://mezap.com.br/' target="_blank">
                 <?=$this->__("menu.contact_us")?>
             </a>
         </li>
