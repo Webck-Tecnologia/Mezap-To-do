@@ -30,4 +30,4 @@ jobs:
         run: composer install -n --prefer-dist
         
       - name: Run releases
-        run: ./createReleasePackage.sh
+        run: sh./createReleasePackage.sh
