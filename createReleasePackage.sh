@@ -18,9 +18,6 @@ composer install --no-dev --optimize-autoloader
 #Building dependencies
 ./node_modules/.bin/grunt Build-All
 
-#Remove font for QR code generator (not needed if no label is used)
-rm -f vendor/endroid/qr-code/assets/fonts/noto_sans.otf
-
 #Removing unneeded items for release
 rm -f -R .git
 rm -f -R .github
