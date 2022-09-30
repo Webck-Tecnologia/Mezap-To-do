@@ -5,9 +5,9 @@ mkdir -p release
 cd release
 
 #Pulling latest master from Github
-rm -R -f leantime
-git clone https://github.com/Leantime/leantime.git
-cd leantime
+rm -R -f Mezap-to-do
+git clone https://github.com/Webck-Tecnologia/Mezap-To-do
+cd Mezap-to-do
 
 #Pulling dependencies in
 npm install
@@ -37,9 +37,9 @@ find ./public/js/ -mindepth 1 ! -name "*compiled*" -exec rm -f -r {} \;
 
 #Exiting release folder and creating archives for Github
 cd ..
-version=`grep "appVersion" mezap-to-do/config/appSettings.php |awk -F' = ' '{print substr($2,2,length($2)-3)}'`
-zip -r -X "mezap-to-do-v$version$1.zip" mezap-to-do
-tar -zcvf "mezap-to-do-v$version$1.tar.gz" mezap-to-do
+version=`grep "appVersion" Mezap-to-do/config/appSettings.php |awk -F' = ' '{print substr($2,2,length($2)-3)}'`
+zip -r -X "mezap-to-do-v$version$1.zip" Mezap-to-do
+tar -zcvf "mezap-to-do-v$version$1.tar.gz" Mezap-to-do
 
 #Removing 
-rm -R mezap-to-do
+rm -R Mezap-to-do
