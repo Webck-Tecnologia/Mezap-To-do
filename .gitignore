@@ -9,7 +9,6 @@
 config/configuration.php
 resources/logs/*
 node_modules/*
-vendor/*
 release/*
 public/js/compiled-app.min.js
 public/js/compiled-base-libs.min.js
