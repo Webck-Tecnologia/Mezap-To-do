@@ -37,9 +37,9 @@ find ./public/js/ -mindepth 1 ! -name "*compiled*" -exec rm -f -r {} \;
 
 #Exiting release folder and creating archives for Github
 cd ..
-version=`grep "appVersion" leantime/config/appSettings.php |awk -F' = ' '{print substr($2,2,length($2)-3)}'`
-zip -r -X "Leantime-v$version$1.zip" leantime
-tar -zcvf "Leantime-v$version$1.tar.gz" leantime
+version=`grep "appVersion" mezap-to-do/config/appSettings.php |awk -F' = ' '{print substr($2,2,length($2)-3)}'`
+zip -r -X "mezap-to-do-v$version$1.zip" mezap-to-do
+tar -zcvf "mezap-to-do-v$version$1.tar.gz" mezap-to-do
 
 #Removing 
-rm -R leantime
+rm -R mezap-to-do
