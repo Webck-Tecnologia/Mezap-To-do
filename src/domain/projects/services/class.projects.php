@@ -271,7 +271,7 @@ namespace leantime\domain\services {
             if($mattermostWebhookURL !== "" && $mattermostWebhookURL !== false) {
 
                 $data = array(
-                    'username' => "Leantime",
+                    'username' => "Mezap to do",
                     "icon_url" => '',
                     'text' => '',
                     'attachments' => $attachments

@@ -120,7 +120,7 @@ namespace leantime\domain\services {
                 }
                 $this->mailer->setHtml($formattedHTML);
                 $to = array($recipient);
-                $this->mailer->sendMail($to, "Leantime System");
+                $this->mailer->sendMail($to, "Mezap to do System");
 
                 // Delete the corresponding messages from the queue when the mail is sent
                 // TODO here : only delete these if the send was successful
